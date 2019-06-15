@@ -1,0 +1,135 @@
+/* Cerulean (blue)         #4484CE
+Aluminium (light gray)  #D9D9D9
+Light (yeallow)         #F9CF00
+Tangerine (orange)      #F19F4D */
+
+header {
+  padding: 30px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header a {
+  /* color: #4C44C1; */
+  color: #4484CE;
+  text-decoration: none;
+}
+
+header .logo {
+  display: inline-block;
+  float: left;
+  /* margin-right: 28px; */
+  margin-right: 20px;
+}
+
+header .logo img {
+  width: 70px;
+}
+
+header .dropdown-btn {
+  display: none;
+  /* visibility: hidden; */
+}
+
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 20px;
+}
+
+header .menu a {
+  text-transform: uppercase;
+}
+
+header .header-buttons {
+  display: inline-block;
+  float: right;
+}
+
+header .header-buttons .blue-btn {
+  background: #11ce8a;
+  /* #6066F2; */
+  /* padding: 14px 46px; */
+  padding: 14px 30px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  /* top: 20px; */
+  top: 20px;
+  left: -40px;
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+
+header .header-buttons .blue-btn .fas {
+  margin-left: 15px;
+}
+
+header .header-buttons .orange-btn {
+  background: #4717F6;
+  /* #FEA83B; */
+  /* padding: 14px 46px; */
+  padding: 14px 30px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  /* top: 20px; */
+  top: 20px;
+  left: -40px;
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+
+/* LAPTOP DEVICES */
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+  header .menu {
+    display: none;
+  }
+
+  header .dropdown-btn {
+    display: none;
+    /* visibility: hidden; */
+  }
+
+  header .header-buttons .blue-btn {
+    background: #11ce8a;
+    padding: 14px 30px;
+    color: white;
+    top: 20px;
+    left: -5px;
+  }
+
+  header .header-buttons .orange-btn {
+    background: #4717F6;
+    padding: 14px 30px;
+    color: white;
+    top: 20px;
+    left: -5px;
+  }
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+
+}
